@@ -89,3 +89,50 @@ span {
     border-radius: 5px;
 
 }
+.logo {
+
+    height: 150px;
+
+}   
+
+.images {
+
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+}
+
+.images img{
+
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+
+}
+
+.images:hover .shape {
+    bottom: 40px;
+    
+}
+
+.images:hover .jose{
+
+    left: 100%;
+    opacity: 100%;
+    transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+
+}
+.jose {
+
+    height: 50px;
+    opacity: 0%;
+
+}
